@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | TALKBLOG</title>
+  <link rel="stylesheet" href="css/contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">TALKBLOG</h1>
+      <nav>
+        <ul>
+         
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="post.html">Post Here</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-container">
+      <h2>Contact <span>Us</span></h2>
+      <p>Have a question, feedback, or want to contribute? Reach out to us below!</p>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message..." rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="success-message" id="successMessage">Thank you! Your message has been sent. ✅</div>
+    </div>
+  </section>
+  
+  <!-- Footer --><div class="center-back-btn">
+  <a href="index.html" class="back-home-button">← Back to Home</a>
+</div>
+
+  <footer>
+    <p>&copy; 2025 TALKBLOG | Built with ❤️ for the blogging community</p>
+  </footer>
+   
+  <script src="js/contact.js"></script>
+</body>
+</html>

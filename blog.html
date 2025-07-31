@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>First Blog | TALKBLOG</title>
+  <link rel="stylesheet" href="css/blog.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">TALKBLOG</h1>
+  </header>
+
+  <!-- Blog Content -->
+  <main class="blog-container">
+    <div class="image-wrapper">
+      <img src="https://static.vecteezy.com/system/resources/previews/000/523/378/original/web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-program-code-and-layout-on-screen-vector.jpg" alt="Blog Cover" class="blog-image" />
+    </div>
+
+    <h2 class="blog-title"> From Code to Career: Kickstart Your Dev Journey</h2>
+    <div class="blog-meta">
+      <span>By <strong>Jack Wang</strong></span> • 
+      <span>07 July 2025</span>
+    </div>
+
+    <article class="blog-content">
+      <p>Dreaming of turning your coding passion into a full-blown career? </p>
+      <p>You're not alone. In today’s tech-driven world, learning to code is more than just a skill—it’s a launchpad to endless opportunities. Whether you're a student exploring your options or a self-taught developer looking to break into the industry, the journey from writing your first line of code to landing your dream job is both exciting and achievable. With the right mindset, projects, and portfolio, you can transform your curiosity into a career. Let’s explore how to build your skills, stand out in the job market, and confidently step into the world of software development.
+
+</p>
+    </article>
+
+    <!-- Like & Comments -->
+    <div class="interact-section">
+      <button id="likeBtn">👍 Like (<span id="likeCount">90</span>)</button>
+
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <input type="text" id="commentName" placeholder="Your Name" required />
+        <textarea id="commentText" placeholder="Your Comment..." rows="4" required></textarea>
+        <button id="postComment">Post Comment</button>
+        <div id="commentList"></div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="back-btn">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </main>
+
+  <script src="js/blog.js"></script>
+</body>
+</html>

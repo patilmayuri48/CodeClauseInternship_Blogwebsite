@@ -1,0 +1,133 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #3f51b5;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.blog-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.image-wrapper {
+  perspective: 1000px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.6s ease;
+}
+
+.blog-image:hover {
+  transform: rotateY(10deg) scale(1.03);
+}
+
+.blog-title {
+  font-size: 28px;
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+.blog-meta {
+  color: #777;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.blog-content p,
+.blog-content ul {
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.blog-content h3 {
+  margin-top: 25px;
+  color: #3f51b5;
+}
+
+.interact-section {
+  margin-top: 40px;
+}
+
+#likeBtn {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#likeBtn:hover {
+  background-color: #e91e63;
+}
+
+.comment-section {
+  margin-top: 30px;
+}
+
+.comment-section input,
+.comment-section textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.comment-section button {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#commentList {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#commentList div {
+  margin-bottom: 12px;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.back-btn {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.back-btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #3f51b5;
+}

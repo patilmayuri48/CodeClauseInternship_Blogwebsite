@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>First Blog | TALKBLOG</title>
+  <link rel="stylesheet" href="css/blog.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">TALKBLOG</h1>
+  </header>
+
+  <!-- Blog Content -->
+  <main class="blog-container">
+    <img src="https://static.vecteezy.com/system/resources/previews/000/366/751/original/students-in-modern-classroom-vector.jpg" alt="Blog Cover" class="blog-image" />
+
+    <h2 class="blog-title">What School Forgot to Teach Us</h2>
+    <div class="blog-meta">
+      <span>By <strong>Bill jain</strong></span> • 
+      <span>07 feb 2025</span>
+    </div>
+
+    <article class="blog-content">
+     <P>Schools taught us how to solve algebra equations and memorize historical dates, but they often skipped the real-life lessons — like how to manage money, deal with failure, or protect your mental health. We were graded on handwriting, but not on emotional intelligence. No one explained how to build confidence, handle rejection, or file taxes. The truth is, some of the most important skills — communication, self-awareness, resilience — are learned outside the classroom. It’s time we admit that academic success doesn’t always equal life success, and start talking about what truly prepares us for the real world.</P>
+    </article>
+
+    <!-- Like & Comments -->
+    <div class="interact-section">
+      <button id="likeBtn">👍 Like (<span id="likeCount">78</span>)</button>
+
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <input type="text" id="commentName" placeholder="Your Name" required />
+        <textarea id="commentText" placeholder="Your Comment..." rows="4" required></textarea>
+        <button id="postComment">Post Comment</button>
+        <div id="commentList"></div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="back-btn">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </main>
+
+  <script src="js/blog.js"></script>
+</body>
+</html>

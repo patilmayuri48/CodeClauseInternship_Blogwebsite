@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post Blog | TALKBLOG</title>
+  <link rel="stylesheet" href="css/post.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">TALKBLOG</h1>
+      <nav>
+        <ul>
+          
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="post.html" class="active">Post Here</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Post Blog Form -->
+  <section class="post-section">
+    <div class="post-container">
+      <h2>Submit <span>Your Blog</span></h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="Blog Title" required />
+        <input type="text" id="author" placeholder="Your Name" required />
+        <select id="category" required>
+          <option value="">Select Category</option>
+          <option value="Technology">Technology</option>
+          <option value="Lifestyle">Lifestyle</option>
+          <option value="Travel">Travel</option>
+          <option value="Health">Health</option>
+          <option value="Education">Education</option>
+        </select>
+        <input type="url" id="image" placeholder="Image URL (optional)" />
+        <textarea id="content" placeholder="Write your full blog here..." rows="8" required></textarea>
+        <button type="submit">Post Blog</button>
+      </form>
+      <div class="success-message" id="successMsg">✅ Your blog has been posted successfully!</div>
+    </div>
+  </section>
+   <div class="center-back-btn">
+  <a href="index.html" class="back-home-button">← Back to Home</a>
+</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TALKBLOG | Built with ❤️ for creators</p>
+  </footer>
+   
+
+  <script src="js/post.js"></script>
+</body>
+</html>

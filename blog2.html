@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>First Blog | TALKBLOG</title>
+  <link rel="stylesheet" href="css/blog2.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">TALKBLOG</h1>
+  </header>
+
+  <!-- Blog Content -->
+  <main class="blog-container">
+    <div class="image-wrapper">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.v0h_tGzhJYzcKw620evGswHaEL?pid=Api&P=0&h=180" alt="Blog Cover" class="blog-image" />
+    </div>
+
+    <h2 class="blog-title">Mastering Focus in the Era of Distractions</h2>
+    <div class="blog-meta">
+      <span>By <strong>money walk</strong></span> • 
+      <span>07 July 2025</span>
+    </div>
+
+    <article class="blog-content">
+      <p>  Focus Is the New Superpower</p>
+      <p>In today's hyper-connected world, distractions are everywhere — from constant smartphone notifications to endless social media scrolls. Mastering focus has become a superpower. True productivity doesn't come from doing more but from doing what matters most with deep concentration. To regain control, we must train our minds to resist instant gratification and instead cultivate mindfulness and intentionality in our daily routines. Whether it's through digital detoxes, focused time blocks, or mindful breathing, small changes can lead to powerful results. The ability to focus deeply is no longer just a personal strength — it's a necessary survival skill in the digital age.</p>
+    </article>
+
+    <!-- Like & Comments -->
+    <div class="interact-section">
+      <button id="likeBtn">👍 Like (<span id="likeCount">90</span>)</button>
+
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <input type="text" id="commentName" placeholder="Your Name" required />
+        <textarea id="commentText" placeholder="Your Comment..." rows="4" required></textarea>
+        <button id="postComment">Post Comment</button>
+        <div id="commentList"></div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="back-btn">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </main>
+
+  <script src="js/blog.js"></script>
+</body>
+</html>
